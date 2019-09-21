@@ -5,7 +5,7 @@ import java.util.Vector;
  * @author (2018315039 이윤재)
  * @version (2019.09.21)
  */
-public class VectorEx
+public class VectorEx_Chap7
 {
     public static void main (String[] args){
         Vector<Integer> v = new Vector<Integer>();
