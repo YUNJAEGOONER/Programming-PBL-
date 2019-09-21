@@ -1,4 +1,5 @@
-import java.util.Vector;
+import java.util.*;
+//import java.util.Vector;
 /**
  * Write a description of class VectorEx here.
  *
@@ -26,6 +27,12 @@ public class VectorEx_Chap7
         for(int i=0; i < v.size() ; i++ ){
             System.out.println(v.get(i));
             //v.get(i) 벡터v의 i번째 요소 알아내기
+        }
+        
+        Iterator<Integer> it = v.iterator();
+        
+        while(it.hasNext()){
+            System.out.println("Iterator " + it.next());
         }
         
         int sum = 0;
