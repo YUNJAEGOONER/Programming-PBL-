@@ -2,8 +2,8 @@ import java.util.*;
 /**
  * Write a description of class MyStack here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2018315039 이윤재)
+ * @version (2019.09.27)
  */
 public class MyStack<T> //타입 매개변수가 T인 제네릭 클래스 MyStack
 {
