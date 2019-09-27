@@ -16,10 +16,12 @@ public class Test
         ms.Push(8);
         ms.Push(2);
         
+        System.out.println(ms.size());
         System.out.println(ms.Pop());
         System.out.println(ms.Pop());
         System.out.println(ms.Pop());
         System.out.println(ms.Pop());
+        
         
         MyStack<Cylinder> cs = new MyStack<Cylinder>();
         //MyStack 의 요소로 클래스도 들어갈수 있다.
@@ -29,7 +31,10 @@ public class Test
         
         cs.Push(c_1);
         cs.Push(c_2);
-        System.out.println(cs);
         
+        System.out.println(cs.size());
+        
+        System.out.println(cs.Pop());
+        System.out.println(cs.Pop());                               
     }
 }

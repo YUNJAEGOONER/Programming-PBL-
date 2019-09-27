@@ -23,4 +23,8 @@ public class MyStack<T> //타입 매개변수가 T인 제네릭 클래스 MyStac
     public T Pop(){
         return array.remove(top--);
     }
+    
+    public int size(){
+        return array.size();
+    }
 }
